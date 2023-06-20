@@ -75,4 +75,14 @@ public class GameManager : MonoBehaviour
         AudioManager.instance.PlayBgm(false);
     }
 
+
+    public void aoao(string name)
+    {
+
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
+        
+        
+        SceneManager.LoadScene(name);
+    }
+
 }

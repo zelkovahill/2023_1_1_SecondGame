@@ -6,6 +6,7 @@ public class SettingsController2 : MonoBehaviour
 {
     [SerializeField]
     private Button backButton;
+    public GameObject sina;
 
     public GameObject settingsPanel;
     public Button[] buttons;
@@ -95,11 +96,28 @@ public class SettingsController2 : MonoBehaviour
         SceneManager.LoadScene(0); // 다음 씬으로 이동
     }
 
-    public void Nextsin()
+    public void Nextsin(string name)
     {
+        AudioManager.instance.PlayBgm(false);
         AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
-        SceneManager.LoadScene(name); // 다음 씬으로 이동
+        SceneManager.LoadScene(name); 
     }    
+
+public void dab()
+{
+    sina.SetActive(true);
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
+
+}
+public void Nodab()
+{
+    sina.SetActive(false);
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Select);
+
+}
+
+
+   
 
     private void FixedUpdate()
     {
