@@ -1003,7 +1003,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD14C\uC77C\uC988\uC704\uBC84"
+  m_Text: "\uD14C\uC77C\uC988\uB7F0\uB108"
 --- !u!222 &857656350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463272085111b4060bc5d45b3c40f927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgmClip: {fileID: 8300000, guid: 2c3c2194be15943979d10e6ee7daeb7f, type: 3}
+  bgmClip: {fileID: 8300000, guid: 5a2ee64c452b24190a25c38ea6740c2c, type: 3}
   bgmVolume: 0.5
   sfxClips:
   - {fileID: 8300000, guid: 4b294d59d2399014daa718b35c9de73b, type: 3}

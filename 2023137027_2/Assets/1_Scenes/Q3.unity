@@ -967,7 +967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42.3, y: -4.1}
+  m_AnchoredPosition: {x: 47.1, y: -4.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857656349
@@ -1003,7 +1003,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC00\uC815\uAD50\uC0AC \uD788\uD2B8\uB9E8 \uB9AC\uBCF8"
+  m_Text: "\uC624\uB780\uACE0\uAD50 \uC0AC\uAD50\uD074\uB7FD"
 --- !u!222 &857656350
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463272085111b4060bc5d45b3c40f927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgmClip: {fileID: 8300000, guid: a941729f3dee3491f99f0ad823c5a30a, type: 3}
+  bgmClip: {fileID: 8300000, guid: 5aa9378a3d12d4d9e95d438f90334958, type: 3}
   bgmVolume: 0.5
   sfxClips:
   - {fileID: 8300000, guid: 4b294d59d2399014daa718b35c9de73b, type: 3}
